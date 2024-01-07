@@ -4,4 +4,4 @@ export default function about() {
             <h1>About us</h1>
         </div>
     );
-  }
+}
