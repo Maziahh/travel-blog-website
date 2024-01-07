@@ -4,4 +4,4 @@ export default function destinations() {
             <h1>destinations</h1>
         </div>
     );
-  }
+}
