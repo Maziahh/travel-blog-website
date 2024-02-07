@@ -1,47 +1,81 @@
-  .main-container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: -200px;
-  }
-  
-  .comment-flexbox {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .comment-text {
-    margin: 12px 0;
-    font-size: 1.15rem;
-    font-weight: 600;
-  }
-  
-  .input-box {
-    height: 75px;
-    width: 465px;
-    background-color: #ececec;
-  }
-  
-  .comment-button {
-    height: 40px;
-    width: 80px;
-    background-color: #1b0fff;
-    color: white;
-    font-size: 1.05rem;
-    margin-top: 10px;
-    border-radius: 5px;
-    border-style: none;
-    cursor: pointer;
-  }
-  
-  .comment-container {
-    height: 75px;
-    width: 465px;
-    background-color: #ececec;
-    border-radius: 5px;
-    margin: 10px 0;
-    word-break: break-all;
-  }
+/* Styles for the main container */
+.main-container {
+  /* Set the height of the container to fill the viewport */
+  height: 100vh;
+  /* Arrange children vertically */
+  display: flex;
+  flex-direction: column;
+  /* Align children to the bottom of the container */
+  justify-content: flex-end;
+  /* Center children horizontally */
+  align-items: center;
+  /* Shift the container upward by 200 pixels */
+  margin-top: -200px;
+}
+
+/* Styles for the flexbox containing comments */
+.comment-flexbox {
+  /* Arrange comments vertically */
+  display: flex;
+  flex-direction: column;
+  /* Align comments to the left side */
+  align-items: flex-start;
+}
+
+/* Styles for the text of comments */
+.comment-text {
+  /* Add margin above and below the text */
+  margin: 12px 0;
+  /* Set font size */
+  font-size: 1.15rem;
+  /* Set font weight to bold */
+  font-weight: 600;
+}
+
+/* Styles for the input box for adding comments */
+.input-box {
+  /* Set height of the input box */
+  height: 75px;
+  /* Set width of the input box */
+  width: 465px;
+  /* Set background color */
+  background-color: #ececec;
+}
+
+/* Styles for the button to submit comments */
+.comment-button {
+  /* Set height of the button */
+  height: 40px;
+  /* Set width of the button */
+  width: 80px;
+  /* Set background color */
+  background-color: #1b0fff;
+  /* Set text color to white */
+  color: white;
+  /* Set font size */
+  font-size: 1.05rem;
+  /* Add space above the button */
+  margin-top: 10px;
+  /* Round the corners of the button */
+  border-radius: 5px;
+  /* Remove border */
+  border-style: none;
+  /* Change cursor to indicate interactivity */
+  cursor: pointer;
+}
+
+/* Styles for the container of each comment */
+.comment-container {
+  /* Set height of the container */
+  height: 75px;
+  /* Set width of the container */
+  width: 465px;
+  /* Set background color */
+  background-color: #ececec;
+  /* Round the corners of the container */
+  border-radius: 5px;
+  /* Add margin above and below the container */
+  margin: 10px 0;
+  /* Break long words to prevent overflow */
+  word-break: break-all;
+}
