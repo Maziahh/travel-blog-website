@@ -1,60 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "bootstrap/dist/css/bootstrap.min.css";
 
+/* navbar info */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
-
-.slideshow-container {
-  position: relative;
-  margin: auto;
-}
-
-.slideshow {
-  display: flex;
-}
-
-.slide {
-  flex: 0 0 100%;
-  height: 400px;
-  min-width: 1080px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.controls {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.arrow {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 32px;
-  color: #000;
-  padding: 8px;
-}
-
-.arrow.left {
-  margin-right: auto;
-}
-
-.arrow.right {
-  margin-left: auto;
 }

@@ -1,8 +1,10 @@
+// layout.jsx
+"use client"
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Navbar from "@/app/Navbar";
-const inter = Inter({ subsets: ['latin']});
 
+const inter = Inter({ subsets: ['latin'] });
 
 export default function RootLayout({ children }) {
   return (
