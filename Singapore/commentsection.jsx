@@ -17,15 +17,15 @@ function App() {
   };
   
   return (
-    <div className="main-container"> // Main container div
-      <div className="comment-flexbox"> // Div for comment input section
-        <h3 className="comment-text">Comment</h3> // Heading for comment section
+    <div className="main-container"> {/* Main container div */}
+      <div className="comment-flexbox"> {/* Div for comment input section */}
+        <h3 className="comment-text">Comment</h3> {/* Heading for comment section */}
         <textarea
           value={comment}
           onChange={onChangeHandler}
           className="input-box" // Textarea input field for entering comment
         />
-        <button onClick={onClickHandler} className="comment-button"> // Button to submit comment
+        <button onClick={onClickHandler} className="comment-button"> {/* Button to submit comment */}
           Submit
         </button>
       </div>
