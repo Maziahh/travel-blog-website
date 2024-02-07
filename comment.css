@@ -1,17 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #ececec;
-  }
-  
-  .main-container {
+ .main-container {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    margin-top: -200px;
+    margin-top: -700px;
   }
   
   .comment-flexbox {
