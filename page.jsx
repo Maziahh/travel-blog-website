@@ -1,16 +1,25 @@
-//to export the slide show :D
-import Slideshow from './slideshow';
-import './globals.css'
-import FirstSection from './1stSection';
+import React from 'react';
+import About from './About';
+import ValCarousel from './ValCarousel';
+import ZoeCarousel from './ZoeCarousel';
+import MaziahCarousel from './MaziahCarousel';
+import YuetlinCarousel from './YuetlinCarousel';
+import TimeLine from './TimeLine'; 
 
-export default function homePage({ children }) {
+// Main component
+function App() {
   return (
-    <html lang="en">
-      <body >
-        <Slideshow />
-        <FirstSection />
-        {children}
-      </body>
-    </html>
+    <div>
+      <About />
+      <div className="carousel-container">
+        <ValCarousel />
+        <ZoeCarousel />
+        <MaziahCarousel />
+        <YuetlinCarousel />
+        <TimeLine /> 
+      </div>
+    </div>
   );
 }
+
+export default App;
