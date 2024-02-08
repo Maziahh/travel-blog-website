@@ -1,0 +1,249 @@
+/*valery*/ 
+/* VAL'S CAROUSEL */ 
+.carousel-container {
+    left: 0;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .carousel {
+    position: relative;
+    max-width: 300px;
+    margin-left: 20px;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .carousel-image.fade {
+    opacity: 0;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 10px;
+    color: black;
+    transition: color 0.3s;
+  }
+  
+  .prev-btn:hover,
+  .next-btn:hover {
+    color: lightpink;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .photo-count {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .text-container {
+    max-width: 500px;
+    margin-left: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+  
+  .text-container h2 {
+    font-size: 40px;
+    color: palevioletred;
+  }
+  
+  .social-media-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  #vallearn-more-btn {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  #vallearn-more-btn:hover {
+    background-color: palevioletred;
+    color: #fff;
+  }
+  
+  .horizontal-timeline {
+    display: flex;
+    gap: 20px; 
+  }
+  
+  /* MAZIAH'S CAROUSEL */ 
+  .mazprev-btn,
+    .maznext-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+      padding: 10px;
+      color: black;
+      transition: color 0.3s;
+    }
+    
+    .mazprev-btn:hover,
+    .maznext-btn:hover {
+      color:  lightblue;
+    }
+    
+    .mazprev-btn {
+      left: 10px;
+    }
+    
+    .maznext-btn {
+      right: 10px;
+    }
+  
+    #mazlearn-more-btn {
+      background-color: black;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      margin-top: 20px;
+    }
+    
+    #mazlearn-more-btn:hover {
+      background-color: lightblue;
+      color: #fff;
+    }
+  
+    /* ZOE'S CAROUSEL */ 
+    #zoelearn-more-btn {
+      background-color: black;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      margin-top: 20px;
+    }
+    
+    #zoelearn-more-btn:hover {
+      background-color: lavender;
+      color: black;
+    } 
+  
+    .zoeprev-btn,
+    .zoenext-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+      padding: 10px;
+      color: black;
+      transition: color 0.3s;
+    }
+    
+    .zoeprev-btn:hover,
+    .zoenext-btn:hover {
+      color:  lavender;
+    }
+    
+    .zoeprev-btn {
+      left: 10px;
+    }
+    
+    .zoenext-btn {
+      right: 10px;
+    }
+  
+    
+    /* YUETLIN'S CAROUSEL */ 
+    #yllearn-more-btn {
+      background-color: black;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+      margin-top: 20px;
+    }
+    
+    #yllearn-more-btn:hover {
+      background-color:goldenrod; 
+      color: #fff;
+    } 
+  
+    .ylprev-btn,
+    .ylnext-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: none;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+      padding: 10px;
+      color: black;
+      transition: color 0.3s;
+    }
+    
+    .ylprev-btn:hover,
+    .ylnext-btn:hover {
+      color:  goldenrod;
+    }
+    
+    .ylprev-btn {
+      left: 10px;
+    }
+    
+    .ylnext-btn {
+      right: 10px;
+    }
+  
