@@ -1,3 +1,4 @@
+// Yuet Lin 
 "use client" 
 
 import { useState } from "react"; // Importing useState hook from React library
@@ -19,7 +20,7 @@ function App() {
   return (
     <div className="main-container"> {/* Main container div */}
       <div className="comment-flexbox"> {/* Div for comment input section */}
-        <h3 className="comment-text">Comment</h3> {/* Heading for comment section */}
+        <h3 className="comment-text">Comment</h3> {/* Heading for comment section */} 
         <textarea
           value={comment}
           onChange={onChangeHandler}
