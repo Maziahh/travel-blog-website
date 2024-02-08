@@ -1,0 +1,36 @@
+/* align the arror so it's in the mid */
+.slideshow-container {
+  position: relative;
+}
+
+/* prevent slides from being too big if not write dimension :D */
+.slideshow {
+  overflow: hidden;
+}
+
+/* sliding animation :D */
+.slides {
+  display: flex;
+  transition: transform 1s ease;
+}
+
+/* control individual slide */
+.slide {
+  flex: 0 0 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* arrows settings */
+.controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Material Symbols Outlined';
+  font-size: 100px;
+  color: black;
+  padding: 20px;
+}
