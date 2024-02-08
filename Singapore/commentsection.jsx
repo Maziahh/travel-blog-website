@@ -1,6 +1,4 @@
-// Yuet Lin 
-"use client" 
-
+"use client"
 import { useState } from "react"; // Importing useState hook from React library
 import "./commentsection.css"; // Importing CSS file for styling
 
@@ -17,8 +15,15 @@ function App() {
     setComment(e.target.value); // Updating the comment state with the value entered in the input field
   };
   
+  // Calculate the margin top dynamically based on the number of comments
+  const calculateMarginTop = () => {
+    const numComments = comments.length;
+    // Calculate the margin based on the number of comments, ensuring it's at least 0
+    return Math.max(-200 + (-numComments * 100), 0) + 'px';
+  };
+
   return (
-    <div className="main-container"> {/* Main container div */}
+    <div className="main-container" style={{marginTop: calculateMarginTop()}}> {/* Main container div */}
       <div className="comment-flexbox"> {/* Div for comment input section */}
         <h3 className="comment-text">Comment</h3> {/* Heading for comment section */} 
         <textarea
