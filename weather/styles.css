@@ -1,0 +1,52 @@
+/* centers the weather */
+.weather-container-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/* makes it horizontal */
+.weather-forecast {
+    width: 1250x;
+    display: flex;
+}
+
+/* calculate width for each container with margin */
+.weather-container {
+    width: calc(1250px / 5 - 20px - 40px);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* bold the date */
+.weather-date {
+    font-weight: bold;
+}
+
+/* adjust size of icons */
+.weather-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* when u hover over item, it shows description */
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    /*hides the hover item*/
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 125%;
+}
+
+/* for hovering */
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+}
